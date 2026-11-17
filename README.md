@@ -1,16 +1,23 @@
-## Hi there 👋
+# KRYALP PROPRETÉ — site vitrine
 
-<!--
-**KryAlpProprete/KryAlpProprete** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Site statique HTML / CSS / JavaScript, prêt à publier avec GitHub Pages.
 
-Here are some ideas to get you started:
+## Fichiers
+- `index.html` : contenu du site
+- `style.css` : mise en page responsive
+- `script.js` : menu mobile et formulaire
+- `assets/` : logo et image de couverture
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Publication avec GitHub Pages
+1. Créez un dépôt GitHub (par exemple `kryalp-proprete`).
+2. Ajoutez tous les fichiers et le dossier `assets/` à la racine du dépôt.
+3. Ouvrez **Settings → Pages**.
+4. Choisissez **Deploy from a branch**, branche `main`, dossier `/ (root)`.
+5. Enregistrez. GitHub affichera l'adresse du site.
+
+## À finaliser avant publication
+- Dans `script.js`, remplacez `const recipient=""` par l'adresse e-mail professionnelle qui doit recevoir les demandes.
+- Complétez la rubrique hébergement des mentions légales avec le nom et les coordonnées de l'hébergeur effectif.
+- Vérifiez les informations légales et les prestations proposées avant mise en ligne.
+
+Le formulaire ouvre le logiciel de messagerie du visiteur après configuration de l'adresse. Il ne stocke aucune donnée sur le site.
